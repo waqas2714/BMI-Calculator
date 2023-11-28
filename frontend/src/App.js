@@ -174,7 +174,7 @@ const App = () => {
           {
             history.length > 0 && 
             history.map((item)=>{
-              return <HistoryRow historyBmi={item.height} historyDate={item.date} historyHeight={item.height} historyWeight={item.weight} />
+              return <HistoryRow historyBmi={item.bmi} historyDate={item.date} historyHeight={item.height} historyWeight={item.weight} />
             })
           }
         </div>
