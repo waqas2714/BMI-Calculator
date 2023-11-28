@@ -25,7 +25,8 @@ body {
     height: 76vh;
     border-radius: 1.5rem;
     overflow: hidden;
-    padding: 5px;
+    padding: 5px;    
+    min-width: 300px;
 }
 
 .name{
@@ -122,7 +123,8 @@ input {
     width: 17%;
     border: 0px;
     border-radius: 1rem;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;    
+    min-width: 58px;
 }
 
 .btn-calculate:hover {
